@@ -1,0 +1,29 @@
+#carousel {
+	margin: 0 auto;
+	height: 400px;
+	width: 400px;
+	border: solid black 2px;
+	overflow: hidden;
+}
+#carousel ul {
+	width: 1600px;
+	display: block;
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+#carousel img {
+	object-fit: cover;
+	width: 400px
+	height: 400px;
+}
+#carousel li {
+	list-style-type: none;
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	float: left;
+}
