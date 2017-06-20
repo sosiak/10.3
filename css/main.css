@@ -1,9 +1,11 @@
 #carousel {
-	margin: 0 auto;
+	margin: auto;
 	height: 400px;
 	width: 400px;
-	border: solid black 2px;
+	border: solid black 4px;
 	overflow: hidden;
+	padding-left: 0;
+	padding-right: 0;
 }
 #carousel ul {
 	width: 1600px;
@@ -26,4 +28,21 @@
 	height: 400px;
 	display: inline-block;
 	float: left;
+}
+#prev {
+	text-align: right;
+	position: relative;
+	top: 170px;
+	font-size: 60px;
+}
+#next {
+	position: relative;
+	top: 170px;
+	font-size: 60px;
+}
+#prev:hover {
+	cursor: pointer;
+}
+#next:hover {
+	cursor: pointer;
 }
