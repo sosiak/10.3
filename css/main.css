@@ -22,8 +22,9 @@
 }
 #carousel img {
 	object-fit: cover;
-	width: 400px
+	width: 400px;
 	height: 400px;
+	margin-left: -400px;
 }
 #carousel li {
 	list-style-type: none;
